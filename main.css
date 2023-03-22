@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 600px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    overflow: hidden;
+    /* color: white; */
+    overflow: hidden;
+
+}
+.container {
+    width: 530px;
+    overflow: hidden;
+    font-size: 30px;
+    position: relative;
+}
+.container .text1{
+    position: relative;
+    color:white;
+}
+.text2{
+    color: white;  
+}
+
+
+.text2::after{
+    content: "";
+    border-right: 1px solid white;
+    margin-left: 5px;
+   
+}
